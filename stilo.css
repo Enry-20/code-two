@@ -1,0 +1,123 @@
+*{margin: 0px;
+padding: 0px;
+}
+body{background-color: #2d2d2d;
+    background-image: linear-gradient(rgb(99, 97, 97),#2d2d2d);
+color: white;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* Navegation */
+.back1{background: url(img/pexels-photo-1478442.jpeg) center center/cover;
+background-repeat: no-repeat;
+background-attachment: fixed;
+height: 500px;
+}
+
+.encabezado{display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+.naveg{display: flex;
+    list-style: none;
+ font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#log{font-size: 27px;
+    background: none;
+    transition: background 1s;
+   /* transition: cubic-bezier(0.175, 0.885, 0.32, 1.275); */
+}
+#log:hover{background: #2d2d2d;
+    border-radius: 7px 7px 7px 7px;
+    padding: 8px;
+    /* font-size: 20px; */
+
+}
+a{  
+margin: 0px 25px;
+color: forestgreen;
+text-decoration: none;
+background: none;
+transition: background .3s;
+
+/* transition: cubic-bezier(0.075, 0.82, 0.165, 1); */
+}
+
+a:hover{background: #2d2d2d;
+    border-radius: 10px 10px 10px 10px;
+padding: 7px;
+font-size: 15px;}
+
+/* img-columb */
+
+.descrip{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 350px;
+    color: lightgray;
+}
+
+/* Frase ganadora */
+
+.winfrase{
+    
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+   
+}
+
+.back2{display: grid;
+    grid-template-columns: repeat(2,1fr);
+    
+    text-align: center;
+}
+
+h3{
+ color: #2d2d2d;} 
+
+h3:hover{color:forestgreen;}
+
+.piece{}
+
+
+
+#tt{background: url(img/img1.jpeg) center center/cover;
+padding: 100px;
+margin-left:20px;
+
+
+}
+#rr{background: url(img/img2.jpeg) center center/cover;
+    padding: 100px;
+    margin-right:20px;
+    
+}
+#yy{background: url(img/img3.jpeg) center center/cover;
+padding: 100px;
+margin-left:20px;
+margin-bottom: 20px;
+
+
+}
+#hh{background: url(img/niño-skate.jpeg) center center/cover;
+padding: 100px;
+margin-right:20px;
+margin-bottom: 20px;
+
+}
+
+.experiences{
+    display: grid;
+    
+}
+
+
+
+
+
+    
+
+
+
